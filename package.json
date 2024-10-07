@@ -1,0 +1,38 @@
+{
+  "name": "@deinrufde/dictionary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "url": "git+https://github.com/eminvegan/dictionary.git"
+  },
+  "author": "Emin Temiz",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "semantic-release": "^24.1.2",
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@ngrx/entity": "^18.0.2",
+    "@prisma/client": "^5.20.0",
+    "@types/gapi": "^0.0.47",
+    "@types/gapi.auth2": "^0.0.61",
+    "@types/gapi.client": "^1.0.8",
+    "@types/google.maps": "^3.58.1",
+    "@types/gtag.js": "^0.0.20",
+    "@types/lodash": "^4.17.10",
+    "@types/luxon": "^3.4.2",
+    "rxjs": "^7.8.1"
+  }
+}

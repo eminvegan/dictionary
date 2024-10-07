@@ -1,0 +1,172 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "angular.ng-template",
+      "nrwl.angular-console",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "steoates.autoimport",
+      "mikestead.dotenv",
+      "vincaslt.highlight-matching-tag",
+      "visualstudioexptteam.vscodeintellicode",
+      "philsinatra.nested-comments",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "prisma.prisma",
+      "redhat.vscode-yaml",
+      "pkief.material-icon-theme",
+      "wix.vscode-import-cost",
+      "donjayamanne.githistory",
+      "johnpapa.angular2",
+      "github.copilot",
+      "bradgashler.htmltagwrap",
+      "johnpapa.vscode-peacock",
+      "alefragnani.project-manager",
+      "wayou.vscode-todo-highlight",
+      "ms-vscode-remote.remote-containers",
+      "rafamel.subtle-brackets"
+    ]
+  },
+  "settings": {
+    "scss.lint.emptyRules": "ignore",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "[typescript]": {
+      "editor.rulers": [80],
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+      },
+      "editor.formatOnSave": true,
+      "editor.wordWrap": "on",
+      "editor.wordWrapColumn": 80
+    },
+    // "editor.formatOnSaveMode": "modifications",
+    "eslint.enable": true,
+    // "html.format.enable": false,
+    // "prettier.requireConfig": false,
+    // "prettier.useEditorConfig": true,
+
+    "[html]": {
+      "editor.rulers": [120],
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+      },
+      "editor.formatOnSave": false,
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.wordWrapColumn": 120
+    },
+    "[scss]": {
+      "editor.rulers": [120],
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+      },
+      "editor.formatOnSave": true
+      // "editor.wordWrap": "wordWrapColumn",
+      // "editor.wordWrapColumn": 120
+    },
+
+    "editor.autoIndent": "full",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": "on",
+    "files.trimTrailingWhitespace": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [],
+    // "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+    "todohighlight.include": [
+      "**/**.module.ts",
+      "**/**.component.ts",
+      "**/**.service.ts",
+      "**/**.service.ts",
+      "**/*.html",
+      "**/*.scss"
+    ],
+    "todohighlight.exclude": [
+      "**/*.json",
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**",
+      "**/ngbootstrap/**"
+    ],
+    "editor.guides.highlightActiveIndentation": true,
+    "editor.guides.indentation": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/node_modules": false
+    },
+    // "typescript.tsdk": "node_modules/typescript/lib",
+    "material-icon-theme.activeIconPack": "angular_ngrx",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.folders.color": "#2196f3",
+    "explorer.autoReveal": false,
+    "editor.foldingImportsByDefault": true,
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
+    "material-icon-theme.hidesExplorerArrows": false,
+    "angular.enable-strict-mode-prompt": false,
+    "vsicons.presets.angular": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#637afe",
+			"activityBar.background": "#637afe",
+			"activityBar.foreground": "#15202b",
+			"activityBar.inactiveForeground": "#15202b99",
+			"activityBarBadge.background": "#9e0118",
+			"activityBarBadge.foreground": "#e7e7e7",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#637afe",
+			"statusBar.background": "#304ffe",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#637afe",
+			"statusBarItem.remoteBackground": "#304ffe",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#304ffe",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#304ffe99",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+    "peacock.color": "#304FFE",
+    "editor.foldingHighlight": false,
+    "subtleBrackets.style": {
+      // "borderColor": "#FFC107",
+      "borderWidth": "2px"
+    },
+    "html.format.wrapAttributes": "auto",
+    "prettier.requireConfig": true,
+    "html.format.wrapAttributesIndentSize": 0,
+    "[html][scss][typescript]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+      }
+    },
+    "editor.wordWrap": "on",
+    "html.format.wrapLineLength": 80,
+    "editor.tabSize": 2,
+    "window.zoomLevel": 0,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
